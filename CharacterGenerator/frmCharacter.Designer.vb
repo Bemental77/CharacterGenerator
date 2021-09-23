@@ -67,7 +67,7 @@ Partial Class frmCharacter
         'txtName
         '
         Me.txtName.Location = New System.Drawing.Point(70, 14)
-        Me.txtName.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtName.Margin = New System.Windows.Forms.Padding(2)
         Me.txtName.Multiline = True
         Me.txtName.Name = "txtName"
         Me.txtName.Size = New System.Drawing.Size(62, 20)
@@ -77,7 +77,7 @@ Partial Class frmCharacter
         '
         Me.btnRandonName.ForeColor = System.Drawing.Color.Black
         Me.btnRandonName.Location = New System.Drawing.Point(150, 14)
-        Me.btnRandonName.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnRandonName.Margin = New System.Windows.Forms.Padding(2)
         Me.btnRandonName.Name = "btnRandonName"
         Me.btnRandonName.Size = New System.Drawing.Size(62, 23)
         Me.btnRandonName.TabIndex = 4
@@ -100,9 +100,9 @@ Partial Class frmCharacter
         Me.gbxStats.Controls.Add(Me.lblSTR)
         Me.gbxStats.Controls.Add(Me.lblSTRDescr)
         Me.gbxStats.Location = New System.Drawing.Point(26, 86)
-        Me.gbxStats.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.gbxStats.Margin = New System.Windows.Forms.Padding(2)
         Me.gbxStats.Name = "gbxStats"
-        Me.gbxStats.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.gbxStats.Padding = New System.Windows.Forms.Padding(2)
         Me.gbxStats.Size = New System.Drawing.Size(185, 158)
         Me.gbxStats.TabIndex = 5
         Me.gbxStats.TabStop = False
@@ -112,7 +112,7 @@ Partial Class frmCharacter
         '
         Me.btnGenerate.ForeColor = System.Drawing.Color.Black
         Me.btnGenerate.Location = New System.Drawing.Point(96, 124)
-        Me.btnGenerate.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnGenerate.Margin = New System.Windows.Forms.Padding(2)
         Me.btnGenerate.Name = "btnGenerate"
         Me.btnGenerate.Size = New System.Drawing.Size(77, 22)
         Me.btnGenerate.TabIndex = 12
@@ -244,7 +244,7 @@ Partial Class frmCharacter
         Me.cboRace.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboRace.FormattingEnabled = True
         Me.cboRace.Location = New System.Drawing.Point(70, 45)
-        Me.cboRace.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboRace.Margin = New System.Windows.Forms.Padding(2)
         Me.cboRace.Name = "cboRace"
         Me.cboRace.Size = New System.Drawing.Size(62, 21)
         Me.cboRace.TabIndex = 2
@@ -262,7 +262,7 @@ Partial Class frmCharacter
         Me.Controls.Add(Me.lblRace)
         Me.Controls.Add(Me.lblName)
         Me.ForeColor = System.Drawing.Color.White
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "frmCharacter"
         Me.Text = "Character Generator"
         Me.gbxStats.ResumeLayout(False)
